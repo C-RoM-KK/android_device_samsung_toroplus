@@ -8,9 +8,6 @@ $(call inherit-product, device/samsung/toroplus/full_toroplus.mk)
 # Inherit CRoM common stuff.
 $(call inherit-product, vendor/crom/config/common_phone.mk)
 
-# bootanimation
-PRODUCT_COPY_FILES += \
-    vendor/crom/prebuilt/common/media/xhdpi/BOOTANIMATION-1280x768.zip:system/media/bootanimation.zip
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.camera.res=5MP
