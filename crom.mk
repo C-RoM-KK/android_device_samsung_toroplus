@@ -1,7 +1,6 @@
 # Boot animation
-TARGET_SCREEN_HEIGHT := 1280
-TARGET_SCREEN_WIDTH := 720
-
+TARGET_SCREEN_HEIGHT := 800
+TARGET_SCREEN_WIDTH := 480
 # Inherit device configuration
 $(call inherit-product, device/samsung/toroplus/full_toroplus.mk)
 
